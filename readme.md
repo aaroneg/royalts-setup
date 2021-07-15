@@ -13,5 +13,4 @@ Technically you can accomplish the credential inheritance by editing the Applica
 ## Files
 
 * init.ps1: handles installation of the RoyalTS powershell modules. You don't need to run this directly.
-* windows-connections.ps1: Reads servers from your current AD domain, groups by OS. You'll probably want to group them in different ways, add credentials to the connection file, set it to not-shared and encrypt it with a password. 
-
+* windows-connections.ps1: Reads servers from your current AD domain, groups by OS. You'll probably want to group them in different ways, add credentials to the connection file, set it to not-shared and encrypt it with a password. The resulting connection file will be placed in your documents folder, wherever that is. 
