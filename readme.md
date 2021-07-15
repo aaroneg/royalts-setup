@@ -6,6 +6,10 @@ I hate setting up RoyalTS connection files by hand. I hate setting the credentia
 
 Technically you can accomplish the credential inheritance by editing the Application document -> Default Settings items, but I found that I am bad at remembering to do that.
 
+## Pre-reqs not handled by the script
+
+* pre-install the RSAT AD tools for `get-adcomputer`
+
 ## Files
 
 * init.ps1: handles installation of the RoyalTS powershell modules. You don't need to run this directly.
